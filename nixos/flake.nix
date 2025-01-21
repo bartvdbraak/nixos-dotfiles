@@ -9,6 +9,17 @@
   outputs = { nixpkgs, ... } @ inputs:
   {
     nixosConfigurations = {
+      default = nixpkgs.lib.nixosSystem {
+        specialArgs = { inherit inputs; };
+        modules = [
+          ./hardware/tongfang.nix
+          ./configuration.nix
+          ./users.nix
+          ./packages.nix
+          ./services.nix
+        ];
+      };
+
       tongfang = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs; };
         modules = [
