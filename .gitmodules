@@ -1,3 +1,0 @@
-[submodule "tongfang/.config/nvim"]
-	path = tongfang/.config/nvim
-	url = git@github.com:bartvdbraak/nbim.git

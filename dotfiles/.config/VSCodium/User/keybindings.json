@@ -1,0 +1,12 @@
+[
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+f2",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
+    }
+]
