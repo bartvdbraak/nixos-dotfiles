@@ -3,6 +3,12 @@
 # to /etc/nixos/configuration.nix instead.
 { config, lib, pkgs, modulesPath, ... }:
 
+let
+  yt6801 = import ./yt6801.nix {
+    inherit (pkgs) stdenv lib fetchzip;
+    kernel = pkgs.linuxPackages.kernel;
+  };
+in
 {
   imports =
     [ (modulesPath + "/installer/scan/not-detected.nix")
