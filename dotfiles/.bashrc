@@ -20,6 +20,11 @@ function ensure_ssh_key {
     fi
 }
 
+function ngc {
+    local days=${1:-14}
+    sudo nix-collect-garbage --delete-older-than "${days}d"
+}
+
 # Map up/down arrow to search for history entries matching what is currently type in the command line.
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'

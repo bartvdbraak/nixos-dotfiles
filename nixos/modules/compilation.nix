@@ -4,15 +4,10 @@
   environment.systemPackages = with pkgs; [
     mold
     gcc
+    ninja
     clang
     lld
     lldb
     musl
-    jdk11
-    dioxus-cli
-    surrealdb
-    surrealdb-migrations
-    surrealist
-    trunk
   ];
 }

@@ -17,7 +17,6 @@ in
     fzf
     jq
     silver-searcher
-    ranger
     ripgrep
     networkmanager-openvpn
     (pkgs.writeTextDir "share/sddm/themes/breeze/theme.conf.user" ''
@@ -25,10 +24,7 @@ in
     background=${customWallpaper}
     '')
     dig
-    caligula
     zig
-    zls
     spotify
-    texlive.combined.scheme-full
   ];
 }

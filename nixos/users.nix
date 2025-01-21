@@ -9,7 +9,7 @@
       vscodium
       thunderbird
       fastfetch
-      wezterm
+      ghostty
       neovim
       logseq
       element-desktop
@@ -18,8 +18,8 @@
       python3
       gnumake
       gccgo
-      # nodejs_22
-      # corepack_22
+      nodejs_22
+      corepack_22
       azure-cli
       sops
       blender

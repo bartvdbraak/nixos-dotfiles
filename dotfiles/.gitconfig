@@ -36,11 +36,5 @@
 	process = git-lfs filter-process
 	required = true
 
-[includeIf "gitdir:~/Repos/github.com/blender/"]
-    path = ~/.config/git/blender.gitconfig
-
-[includeIf "gitdir:~/Repos/gitlab.com/blender/"]
-    path = ~/.config/git/blender.gitconfig
-
 [includeIf "gitdir:~/Repos/projects.blender.org/"]
     path = ~/.config/git/blender.gitconfig
