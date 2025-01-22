@@ -1,0 +1,3 @@
+dev-lang/zig ~amd64
+x11-terms/ghostty ~amd64
+app-eselect/eselect-zig ~amd64
