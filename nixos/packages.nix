@@ -16,8 +16,10 @@ in
     curl
     fzf
     jq
+    unzip
     silver-searcher
     ripgrep
+    wl-clipboard-rs
     networkmanager-openvpn
     (pkgs.writeTextDir "share/sddm/themes/breeze/theme.conf.user" ''
     [General]
