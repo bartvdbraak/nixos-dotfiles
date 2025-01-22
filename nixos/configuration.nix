@@ -1,4 +1,9 @@
-{ config, pkgs, inputs, ... }:
+{
+  config,
+  pkgs,
+  inputs,
+  ...
+}:
 
 {
   # Bootloader and EFI settings
@@ -36,7 +41,7 @@
   # Optimization & Garbage Collection
 
   # Optimize Nix-Store During Rebuilds
-    # NOTE: Optimizes during builds - results in slower builds
+  # NOTE: Optimizes during builds - results in slower builds
   nix.settings.auto-optimise-store = true;
 
   # Purge Unused Nix-Store Entries
@@ -48,7 +53,10 @@
 
   # Enable Nix Flakes and experimental features
   nixpkgs.config.allowUnfree = true;
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
 
   # System state version
   system.stateVersion = "24.11";

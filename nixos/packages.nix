@@ -1,4 +1,9 @@
-{ pkgs, inputs, config, ... }:
+{
+  pkgs,
+  inputs,
+  config,
+  ...
+}:
 
 let
   customWallpaper = pkgs.fetchurl {
@@ -7,26 +12,29 @@ let
   };
 in
 {
-  environment.systemPackages = with pkgs; with inputs; [
-    inputs.zen-browser.packages."${system}".default
-    firefox
-    git
-    vim
-    wget
-    curl
-    fzf
-    jq
-    unzip
-    silver-searcher
-    ripgrep
-    wl-clipboard-rs
-    networkmanager-openvpn
-    (pkgs.writeTextDir "share/sddm/themes/breeze/theme.conf.user" ''
-    [General]
-    background=${customWallpaper}
-    '')
-    dig
-    zig
-    spotify
-  ];
+  environment.systemPackages =
+    with pkgs;
+    with inputs;
+    [
+      inputs.zen-browser.packages."${system}".default
+      firefox
+      git
+      vim
+      wget
+      curl
+      fzf
+      jq
+      unzip
+      silver-searcher
+      ripgrep
+      wl-clipboard-rs
+      networkmanager-openvpn
+      (pkgs.writeTextDir "share/sddm/themes/breeze/theme.conf.user" ''
+        [General]
+        background=${customWallpaper}
+      '')
+      dig
+      zig
+      spotify
+    ];
 }

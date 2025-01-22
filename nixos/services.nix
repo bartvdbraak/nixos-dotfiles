@@ -13,17 +13,17 @@
   # Enable PipeWire and ALSA support
   services.pipewire = {
     enable = true;
-    alsa.enable = true;       # Enable ALSA support
+    alsa.enable = true; # Enable ALSA support
     alsa.support32Bit = true; # Support for 32-bit applications
-    pulse.enable = true;      # Enable PulseAudio compatibility layer
+    pulse.enable = true; # Enable PulseAudio compatibility layer
   };
-  
+
   # Enable libinput for input device handling
   services.libinput.enable = true;
 
   # Enable security-related service for realtime audio tasks
   security.rtkit.enable = true;
-  
+
   # Enable to update some devices' firmware
   services.fwupd.enable = true;
 

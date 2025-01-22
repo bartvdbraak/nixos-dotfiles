@@ -4,7 +4,12 @@
   users.users.bart = {
     isNormalUser = true;
     description = "Bart van der Braak";
-    extraGroups = [ "networkmanager" "wheel" "libvirtd" "docker" ];
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+      "libvirtd"
+      "docker"
+    ];
     packages = with pkgs; [
       vscodium
       thunderbird

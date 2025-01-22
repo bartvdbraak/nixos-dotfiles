@@ -5,7 +5,14 @@
   users.users.bart = {
     isNormalUser = true;
     description = "Bart van der Braak";
-    extraGroups = [ "networkmanager" "input" "wheel" "video" "audio" "tss" ];
+    extraGroups = [
+      "networkmanager"
+      "input"
+      "wheel"
+      "video"
+      "audio"
+      "tss"
+    ];
     shell = pkgs.bash;
     packages = with pkgs; [
       spotify

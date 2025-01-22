@@ -3,7 +3,7 @@
 {
   # Linux Kernel
   boot.kernelPackages = pkgs.linuxKernel.packages.linux_zen;
-  boot.kernelParams = [ 
+  boot.kernelParams = [
     "splash"
     "quiet"
     "fbcon=nodefer"
