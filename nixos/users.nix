@@ -63,9 +63,12 @@
   programs.virt-manager.enable = true;
 
   # Add Docker support
-  virtualisation.docker.enable = true;
-  virtualisation.docker.rootless = {
+  virtualisation.docker = {
     enable = true;
-    setSocketVariable = true;
+    enableOnBoot = false;
+    rootless = {
+      enable = true;
+      setSocketVariable = true;
+    };
   };
 }
