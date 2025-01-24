@@ -29,6 +29,10 @@ function ngc {
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
+bind "set completion-ignore-case on"
+bind "set completion-map-case on"
+bind "set show-all-if-ambiguous on"
+
 export HISTSIZE=10000
 export HISTFILESIZE=10000
 

@@ -24,6 +24,7 @@ in
       curl
       fzf
       jq
+      delta
       unzip
       silver-searcher
       ripgrep
