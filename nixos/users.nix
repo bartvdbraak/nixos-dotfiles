@@ -12,6 +12,7 @@
     ];
     packages = with pkgs; [
       vscodium
+      ungoogled-chromium
       thunderbird
       fastfetch
       ghostty
