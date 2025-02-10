@@ -18,13 +18,13 @@
             ./packages.nix
             ./services.nix
             ./modules/bootloader.nix
+            ./modules/apple-fonts.nix
           ];
         };
         qemu = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs; };
           modules = [
             ./hardware/qemu.nix
-
             ./modules/kde.nix
             ./modules/configuration.nix
             ./modules/display-manager.nix

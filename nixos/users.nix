@@ -32,6 +32,7 @@
       inkscape
       gimp
       nixfmt-rfc-style
+      cloud-utils
     ];
   };
 
