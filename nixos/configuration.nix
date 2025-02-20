@@ -35,6 +35,8 @@
     packages = with pkgs; [
       jetbrains-mono
       nerdfonts
+      noto-fonts
+      noto-fonts-emoji
     ];
   };
 
