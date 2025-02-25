@@ -37,5 +37,7 @@ in
       dig
       zig
       spotify
+      exfat
+      exfatprogs
     ];
 }
