@@ -19,6 +19,7 @@
       neovim
       logseq
       element-desktop
+      cinny-desktop
       go-task
       opentofu
       python3
@@ -42,6 +43,9 @@
   nixpkgs.config.permittedInsecurePackages = [
     # Workaround for electron dependency in Logseq
     "electron-27.3.11"
+    # Workaround for Cinny to work
+    "cinny-unwrapped-4.2.3"
+    "cinny-4.2.3"
   ];
 
   programs._1password.enable = true;
