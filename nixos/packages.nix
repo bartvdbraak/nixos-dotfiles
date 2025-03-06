@@ -39,5 +39,6 @@ in
       spotify
       exfat
       exfatprogs
+      remmina
     ];
 }
