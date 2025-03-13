@@ -40,5 +40,6 @@ in
       exfat
       exfatprogs
       remmina
+      s3cmd
     ];
 }
