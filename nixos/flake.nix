@@ -18,7 +18,7 @@
             ./packages.nix
             ./services.nix
             ./modules/bootloader.nix
-            ./modules/apple-fonts.nix
+            ./modules/fonts.nix
           ];
         };
         qemu = nixpkgs.lib.nixosSystem {

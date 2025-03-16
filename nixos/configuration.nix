@@ -28,18 +28,7 @@
     LC_TELEPHONE = "nl_NL.UTF-8";
     LC_TIME = "en_US.UTF-8";
   };
-
-  # Fonts configuration
-  fonts = {
-    enableDefaultPackages = true;
-    packages = with pkgs; [
-      jetbrains-mono
-      nerdfonts
-      noto-fonts
-      noto-fonts-emoji
-    ];
-  };
-
+  
   # Optimization & Garbage Collection
 
   # Optimize Nix-Store During Rebuilds
