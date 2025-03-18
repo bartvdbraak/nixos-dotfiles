@@ -41,5 +41,6 @@ in
       exfatprogs
       remmina
       s3cmd
+      powershell
     ];
 }
