@@ -9,6 +9,7 @@
       "wheel"
       "libvirtd"
       "docker"
+      "dialout" # for nanokvm usb
     ];
     packages = with pkgs; [
       vscodium
