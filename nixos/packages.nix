@@ -42,5 +42,7 @@ in
       remmina
       s3cmd
       powershell
+      git-lfs
+      ruff
     ];
 }
