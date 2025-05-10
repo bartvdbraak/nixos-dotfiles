@@ -35,6 +35,8 @@
       gimp
       nixfmt-rfc-style
       cloud-utils
+      ansible-lint
+      zed-editor
     ];
   };
 
