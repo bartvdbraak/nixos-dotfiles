@@ -21,6 +21,7 @@
       logseq
       element-desktop
       cinny-desktop
+      signal-desktop
       go-task
       opentofu
       python3
