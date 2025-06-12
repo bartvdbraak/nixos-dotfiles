@@ -72,7 +72,6 @@ in {
     enableDefaultPackages = true;
     packages = with pkgs; [
       jetbrains-mono
-      noto-fonts.JetBrainsMono
       noto-fonts-emoji
       (makeAppleFont "sf-pro" "SF Pro Fonts.pkg" fontSources.sf-pro)
       (makeAppleFont "sf-compact" "SF Compact Fonts.pkg" fontSources.sf-compact)
