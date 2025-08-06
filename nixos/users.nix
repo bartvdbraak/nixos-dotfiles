@@ -26,7 +26,7 @@
       opentofu
       python3
       gnumake
-      gccgo
+      go
       nodejs_22
       corepack_22
       azure-cli
