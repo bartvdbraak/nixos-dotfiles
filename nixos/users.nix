@@ -10,6 +10,7 @@
       "libvirtd"
       "docker"
       "dialout" # for nanokvm usb
+      "blueooth" # for kairpods
     ];
     packages = with pkgs; [
       vscodium

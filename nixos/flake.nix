@@ -4,6 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
+    kairpods.url = "github:bartvdbraak/kAirPods";
   };
 
   outputs = { nixpkgs, ... }@inputs: {

@@ -17,6 +17,7 @@ in
     with inputs;
     [
       inputs.zen-browser.packages."${system}".default
+      inputs.kairpods.packages.${system}.default
       firefox
       git
       vim
