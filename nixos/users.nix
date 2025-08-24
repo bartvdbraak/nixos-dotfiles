@@ -38,6 +38,7 @@
       cloud-utils
       ansible-lint
       zed-editor
+      prismlauncher
     ];
   };
 
