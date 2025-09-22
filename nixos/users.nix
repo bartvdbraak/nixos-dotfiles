@@ -39,6 +39,7 @@
       ansible-lint
       zed-editor
       prismlauncher
+      runelite
     ];
   };
 
