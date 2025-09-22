@@ -40,6 +40,7 @@
       zed-editor
       prismlauncher
       runelite
+      bolt-launcher
     ];
   };
 
